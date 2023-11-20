@@ -1,5 +1,44 @@
+body{
+    background-color: black;
+}
+h1{
+    font-size: 60px;
+    color:white;
+    text-align: center;
+}
 img{
-    width: 500px;
-    height: 500px;
-    margin: 50px;
+    width:30%;
+    height:10%;
+}
+p{
+    font-size: 30px;
+    color:white;
+    text-align:center
+}
+li{
+    color:white;
+}
+h2{
+    color:white;
+}
+.cabecalho{
+    background-color: blueviolet;
+}
+.lista_cabecalho{
+    display: flex;
+    margin-left: 450px;
+}
+.item_lista_cabecalho{
+    color: #fcf8f8;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.imagem{
+    width: 3%;
+    height:5%;
+    padding-left: 40px;
 }
